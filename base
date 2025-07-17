@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Malla Interactiva - Ciencias Veterinarias</title>
+  <style>
+    :root {
+      --color-aprobada: #d1e7dd;
+      --color-pendiente: #ffe5b4;
+      --color-materia: #f0f0f0;
+      --color-borde: #bbb;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background: #fafafa;
+      margin: 0;
+      padding: 2rem;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 2rem;
+    }
+    .filtro {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .filtro input {
+      padding: 0.6rem;
+      font-size: 1rem;
+      width: 60%;
+      max-width: 400px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    .semestre {
+      margin-bottom: 2rem;
+      background: white;
+      border-radius: 12px;
+      padding: 1rem;
+      box-shadow: 0 0 8px rgba(0,0,0,0.05);
+    }
+    .semestre h2 {
+      margin-top: 0;
+      color: #2c3e50;
+    }
+    .materia {
+      padding: 0.8rem;
+      margin: 0.3rem 0;
+      border-left: 5px solid var(--color-borde);
+      background: var(--color-materia);
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .materia.aprobada { background: var(--color-aprobada); border-left-color: #28a745; }
+    .materia.pendiente { background: var(--color-pendiente); border-left-color: #ffc107; }
+    .detalle {
+      display: block;
+      font-size: 0.85em;
+      color: #555;
+      margin-top: 0.3rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Malla Interactiva - Ciencias Veterinarias</h1>
+  <div class="filtro">
+    <input type="text" id="buscador" placeholder="Buscar materia...">
+  </div>
+
+  <!-- Aquí van los semestres del I al X (ya completados anteriormente) -->
+  <!-- Añadiremos una funcionalidad para que el usuario pueda modificar el estado -->
+
+  <script>
+    const buscador = document.getElementById('buscador');
+    buscador.addEventListener('input', function () {
+      const valor = this.value.toLowerCase();
+      document.querySelectorAll('.materia').forEach(m => {
+        const texto = m.textContent.toLowerCase();
+        m.style.display = texto.includes(valor) ? 'block' : 'none';
+      });
+    });
+
+    document.querySelectorAll('.materia').forEach(m => {
+      m.addEventListener('click', () => {
+        if (m.classList.contains('aprobada')) {
+          m.classList.remove('aprobada');
+          m.classList.add('pendiente');
+        } else if (m.classList.contains('pendiente')) {
+          m.classList.remove('pendiente');
+        } else {
+          m.classList.add('aprobada');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
+
