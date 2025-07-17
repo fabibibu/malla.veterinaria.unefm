@@ -1,0 +1,100 @@
+  </div>
+
+  <div class="semestre">
+    <h2>I Semestre</h2>
+    <div class="materia aprobada">Histología y Embriología Veterinaria <span class="detalle">(5 UC)</span></div>
+    <div class="materia aprobada">Anatomía de los Animales Domésticos <span class="detalle">(4 UC)</span></div>
+    <div class="materia aprobada">Introducción a la Producción Animal <span class="detalle">(4 UC)</span></div>
+    <div class="materia aprobada">Actividades Físicas I <span class="detalle">(1 UC)</span></div>
+    <div class="materia aprobada">Actividades Socio Humanísticas I <span class="detalle">(1 UC)</span></div>
+  </div>
+
+  <div class="semestre">
+    <h2>II Semestre</h2>
+    <div class="materia aprobada">Bioquímica I <span class="detalle">(4 UC)</span></div>
+    <div class="materia aprobada">Anatomía Comparada Animales Domésticos <span class="detalle">(4 UC) - Prelación: Anatomía de los Animales Domésticos</span></div>
+    <div class="materia aprobada">Bioestadística <span class="detalle">(3 UC)</span></div>
+    <div class="materia aprobada">Ecología y Fauna Silvestre <span class="detalle">(2 UC)</span></div>
+    <div class="materia aprobada">Actividades Físicas II <span class="detalle">(1 UC)</span></div>
+    <div class="materia aprobada">Actividades Socio Humanísticas II <span class="detalle">(1 UC)</span></div>
+  </div>
+
+  <div class="semestre">
+    <h2>III Semestre</h2>
+    <div class="materia aprobada">Fisiología Animal I <span class="detalle">(3 UC) - Prelación: Bioquímica I</span></div>
+    <div class="materia aprobada">Bioquímica II <span class="detalle">(4 UC) - Prelación: Bioquímica I</span></div>
+    <div class="materia aprobada">Genética <span class="detalle">(3 UC) - Prelación: Bioestadística</span></div>
+    <div class="materia aprobada">Taller de Computación <span class="detalle">(2 UC)</span></div>
+    <div class="materia aprobada">Microbiología General e Inmunología <span class="detalle">(4 UC)</span></div>
+    <div class="materia aprobada">Electiva de Formación General I <span class="detalle">(2 UC)</span></div>
+  </div>
+
+  <div class="semestre">
+    <h2>IV Semestre</h2>
+    <div class="materia pendiente">Nutrición Animal <span class="detalle">(3 UC) - Prelación: Bioquímica II</span></div>
+    <div class="materia aprobada">Fisiología Animal II <span class="detalle">(3 UC) - Prelación: Fisiología Animal I</span></div>
+    <div class="materia pendiente">Anatomía Patológica de los Animales Domésticos <span class="detalle">(5 UC)</span></div>
+    <div class="materia aprobada">Inglés I <span class="detalle">(2 UC)</span></div>
+    <div class="materia aprobada">Electiva de Formación General II <span class="detalle">(2 UC)</span></div>
+    <div class="materia aprobada">Taller de Producción y Manejo de Forrajes <span class="detalle">(3 UC)</span></div>
+  </div>
+
+  <div class="semestre">
+    <h2>V Semestre (Actual)</h2>
+    <div class="materia">Alimentación Animal <span class="detalle">(2 UC) - Prelación: Nutrición Animal</span></div>
+    <div class="materia">Semiología <span class="detalle">(3 UC)</span></div>
+    <div class="materia">Taller de Producción de Cerdos <span class="detalle">(3 UC)</span></div>
+    <div class="materia">Inglés II <span class="detalle">(2 UC)</span></div>
+    <div class="materia">Metodología de la Investigación <span class="detalle">(2 UC)</span></div>
+    <div class="materia">Práctica Profesional I <span class="detalle">(2 UC)</span></div>
+    <div class="materia">Taller de Ovinos y Caprinos <span class="detalle">(3 UC)</span></div>
+  </div>
+
+  <div class="semestre">
+    <h2>VI Semestre</h2>
+    <div class="materia">Análisis y Patología Clínica <span class="detalle">(3 UC) - Prelación: Semiología</span></div>
+    <div class="materia">Taller de Bovinos <span class="detalle">(3 UC)</span></div>
+    <div class="materia">Farmacología y Toxicología <span class="detalle">(4 UC) - Prelación: Fisiología Animal II</span></div>
+    <div class="materia">Taller de Aves <span class="detalle">(3 UC)</span></div>
+    <div class="materia">Reproducción Animal I <span class="detalle">(3 UC) - Prelación: Fisiología Animal II</span></div>
+    <div class="materia">Economía Agropecuaria <span class="detalle">(3 UC)</span></div>
+  </div>
+
+  <div class="semestre">
+    <h2>VII Semestre</h2>
+    <div class="materia">Enfermedades Infecto Contagiosas <span class="detalle">(3 UC)</span></div>
+    <div class="materia">Parasitología y Enfermedades Parasitarias <span class="detalle">(4 UC)</span></div>
+    <div class="materia">Patología Terapéutica Quirúrgica <span class="detalle">(3 UC) - Prelación: Farmacología y Toxicología, Análisis y Patología Clínica</span></div>
+    <div class="materia">Reproducción Animal II <span class="detalle">(2 UC) - Prelación: Reproducción Animal I</span></div>
+    <div class="materia">Seminario de Grado <span class="detalle">(2 UC)</span></div>
+    <div class="materia">Taller y Tecnología de la Carne <span class="detalle">(2 UC)</span></div>
+    <div class="materia">Electiva de Formación Profesional I <span class="detalle">(3 UC)</span></div>
+  </div>
+
+  <div class="semestre">
+    <h2>VIII Semestre</h2>
+    <div class="materia">Clínica de Pequeños Animales <span class="detalle">(3 UC) - Prelación: Enfermedades Infecto Contagiosas, Patología Terapéutica Quirúrgica</span></div>
+    <div class="materia">Administración y Planificación Agropecuaria <span class="detalle">(3 UC)</span></div>
+    <div class="materia">Taller y Tecnología de la Leche <span class="detalle">(2 UC)</span></div>
+    <div class="materia">Historia y Deontología Veterinaria <span class="detalle">(2 UC)</span></div>
+    <div class="materia">Actividad Comunitaria I <span class="detalle">(2 UC)</span></div>
+    <div class="materia">Epidemiología y Salud Pública <span class="detalle">(3 UC)</span></div>
+    <div class="materia">Prácticas Profesionales II <span class="detalle">(2 UC)</span></div>
+  </div>
+
+  <div class="semestre">
+    <h2>IX Semestre</h2>
+    <div class="materia">Higiene y Control de Alimentos <span class="detalle">(3 UC) - Prelación: Taller y Tecnología de la Carne, Taller y Tecnología de la Leche</span></div>
+    <div class="materia">Clínica de Grandes Animales <span class="detalle">(4 UC) - Prelación: Enfermedades Infecto Contagiosas, Patología Terapéutica Quirúrgica</span></div>
+    <div class="materia">Desarrollo Rural Integrado <span class="detalle">(2 UC)</span></div>
+    <div class="materia">Actividad Comunitaria II <span class="detalle">(2 UC)</span></div>
+    <div class="materia">Electiva de Formación Profesional II <span class="detalle">(3 UC)</span></div>
+    <div class="materia">Electiva de Formación Profesional III <span class="detalle">(3 UC)</span></div>
+    <div class="materia">Trabajo Especial de Grado I <span class="detalle">(2 UC) - Prelación: Seminario de Grado</span></div>
+  </div>
+
+  <div class="semestre">
+    <h2>X Semestre</h2>
+    <div class="materia">Trabajo de Grado II <span class="detalle">(4 UC) - Prelación: Trabajo Especial de Grado I</span></div>
+    <div class="materia">Pasantías Rotatorias <span class="detalle">(10 UC)</span></div>
+  </div>
